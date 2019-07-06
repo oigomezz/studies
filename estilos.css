@@ -1,0 +1,206 @@
+@import "lesshat";
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/* Toda la pagina se encuentra en fuente Helvetica sin remates y sin margenes */
+* {
+		margin: 0;
+		font-family: 'Helvetica', sans-serif;
+}
+/* =========TITULO========= */
+/* Color de fondo del titulo 808b96, bordes de caja del titulo circulares de 15 pixeles de radio */
+/* Texto centrado, margen de 30 pixeles, posicion fija */
+#title{
+		background-color:  #808b96;
+		margin: 30px;
+		border-radius: 15px;
+		text-align:  center;
+		position: static;
+}
+/* Color de fuente para h1 blanco de tamano 30 pixeles */
+#title h1 {
+		color:  #ffffff;
+		font-size: 30px;
+}
+/* =========TITULO========= */
+/* =========NAVIGATION BAR========= */
+/* Color de fondo de la barra de navegacion 34495E, tamano de fuente para todas las etiquetas 17 pixeles */
+.navbar {
+		background-color: #34495e;
+		font-size: 17px;
+}
+/* Barra de navegacion sin icono de vineta, margen 0  */
+/* padding 0, si hay tantos elementos en la barra que se excede la caja, se accede por scroll */
+/* Texto centrado */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    text-align: center;
+}
+/* Barra de navegacion hacia la izquierda */
+.navbar ul li {
+    float: left;
+}
+/* Elementos de la barra con etiqueta a con fuente blanca */
+/* Texto sin decoracion, padding de 10pixeles */
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+/* Al pasar el cursor sobre un elemento de la barra, se resalta de color negro */
+.navbar ul li a:hover {
+		margin: 0;
+		background-color: #111111;
+}
+/* =========NAVIGATION BAR========= */
+
+/* =========CONTENEDORES USADOS========= */
+/* Este contenedor se aplica a todas las vistas y aplica para todo, incluso otros contenedores */
+.container{
+	overflow: auto;
+	margin: 20px;
+	text-align: left;
+}
+
+/* Para que las imagenes usadas tengan padding y margin */
+.container .div-img{
+	padding: 90px;
+	margin: 200px;
+}
+
+.container .div-img1{
+	padding: 80px;
+	margin: 50px;
+}
+
+/* Distintos colores para cada tipo de container */
+.container1{
+	background-color: #45b39d;
+}
+
+/* Confguracion para todos los cntainers */
+.container1 {
+	overflow: auto;
+	margin: 10px;
+	padding: 5px;
+	float: center;
+	border-radius: 5px;
+}
+
+.container1 h2{
+	margin: 25px;
+}
+
+.container1 ul{
+	margin: 10px;
+}
+
+.container1 ul li a{
+	list-style-type: line;
+}
+
+.container1 p{
+	margin: 25px;
+}
+
+
+/*Código par centrar imágenes*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.juegoPhaser {  
+    width: 320px;
+    margin: 25px;
+}
+
+/* =========FOOTER========= */
+/* Al final de cada vista se muestra un pie de pagina con text centrado */
+/* Su posicion varia dependiendo de la altura de la pagina */
+footer{
+	text-align: center;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #3D3B3B;
+	padding: 10px;
+}
+footer p{
+	color: white;
+}
+footer a{
+	color: green;
+}
+
+/* =========HEADER========= */
+header {
+		width: 100%;
+		z-index: 99;
+		position: relative;
+		padding: 20px 0;
+		box-shadow: 0 0 3px rgba(0,0,0,0.5);
+		background-color: #34495e;
+}
+header a{
+		color: white;
+}
+header .navbar {
+		margin: 0px;
+		padding: 0px;
+		text-align: center;
+		min-height: 40px;
+		float: center;
+}
+
+/*Responsive para ancho de pantalla 480*/
+@media screen and (max-width: 480px) {
+		.container, .container1, .container2, .container3, .container4{
+			width: 100%;
+    		height: 100%
+    		left:0;
+		}
+
+		.navbar{
+			position: static;
+		}
+
+		.navbar{
+      		position: static;
+    	}
+
+    	.navbar ul {
+    		position: inline;
+    		background-color: #3D3B3B;
+    		text-decoration: none;
+    		list-style: none;
+    	}
+
+    	.navbar li a {
+    	  	font-size: 0;
+    	  	padding-right: 0px;
+    	  	padding: 0;
+ 	   	  	margin: 10;
+ 	   	  	font-size: 75%;
+   	 	}
+
+    	.navbar li {
+ 	     	padding-right: 30px;
+    	}
+}
+
+/*Responsive para ancho de pantalla 780*/
+@media screen and (max-height: 780px) {
+		.navbar{
+			position: static;
+		}
+}
