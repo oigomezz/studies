@@ -47,4 +47,4 @@ Implementar al menos 6 ilusiones de tres tipos distintos (paradójicas, geométr
 ## Entrega
 
 * Plazo: 12/5/19 a las 24h.
-* (todos los integrantes) Presentar el trabajo presencialmente en la siguiente sesión de taller.
+* Presentar el trabajo presencialmente en la siguiente sesión de taller(todos los integrantes).
