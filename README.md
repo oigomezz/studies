@@ -1,3 +1,3 @@
-Computacion Visual
+## Computacion Visual
 
-Oscar Ivan Gomez Zamudio
+En este repositorio se encuentrar todos los talleres realizados en el periodo academico 2019-1
