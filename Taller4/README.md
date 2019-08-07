@@ -40,8 +40,8 @@ La iluminación de una escena 3D implica colocar una o más fuentes de luz en el
 En el momento implementar luz proveniente de una fuente natural o una fuente puntual, procedimos a implementar al momento de colocar una luz difusa, un enfoque por vértice o por pixel de la luz sobre el objeto, dependiendo de donde si existe rugosidad sobre el objeto. iluminar, ademas de lightdir que nos provee la dirección de donde proviene la luz.
 
 La posibilidad de configurar sombreadores personalizados nos permite cambiar los algoritmos de renderización predeterminados para aquellos que son más sofisticados o generan estilos visuales específicos.
-![Cilindro](/Taller%204/img/textura22.png )
-![Cilindro](/Taller%204/img/textura21.png )
+![Cilindro](/Taller4/img/textura22.png )
+![Cilindro](/Taller4/img/textura21.png )
 ## Bump mapping
 
 Es una técnica de gráficos computacionales 3D, que consiste en dar un aspecto rugoso a las superficies de los objetos. Esta técnica modifica las normales de la superficie sin cambiar su geometría, esta técnica se utiliza para evitar tener muchos detalles en la geometría real del objeto ya que esto reduce el rendimiento de la GPU. 
@@ -50,7 +50,7 @@ El bump mapping cambia la perpendicularidad por otras normales por medio de una 
 
 La implementación se aplico usando una textura de una pared de ladrillos donde usando una textura para la pared y otra para modificar la reflexión de la luz en su superficie se consiguió el efecto de Bump mapping oprimiendo el clic del ratón de manera sostenida.
 
-![Pared Bump Mapping](/Taller%204/img/textura3.png)
+![Pared Bump Mapping](/Taller4/img/textura3.png)
 ## Referencias
   * [bump mapping](https://docs.unity3d.com/es/current/Manual/StandardShaderMaterialParameterNormalMap.html).
 
