@@ -8,6 +8,6 @@ Hola Mundo en Android Studio
 
 Propuesta del Proyecto
 
-# Reto 02 
+## Reto 02 
 
 Modelo CANVAS y Prototipado del Proyecto
