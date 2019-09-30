@@ -11,3 +11,16 @@ Propuesta del Proyecto
 ## Reto 02 
 
 Modelo CANVAS y Prototipado del Proyecto
+
+## Reto 03 
+
+Interfaz grafica para un TicTacToe
+
+## Reto 04 
+
+Menu y Dialogos para un TicTacToe
+
+## Reto 05 
+
+Incorporacion de graficos y audio para un TicTacToe
+
