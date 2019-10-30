@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "805946862672",
+    "firebase_url": "https://tictactoe-8f6cb.firebaseio.com",
+    "project_id": "tictactoe-8f6cb",
+    "storage_bucket": "tictactoe-8f6cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805946862672:android:7f7efe98ebcaf9b40f3555",
+        "android_client_info": {
+          "package_name": "com.e.tictactoe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805946862672-u992qlp6vnbkef6h079tsm60fk33a1ag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHYEi7O34sdXu4Goa73DdmixElgQjjZeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805946862672-u992qlp6vnbkef6h079tsm60fk33a1ag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805946862672:android:b340cce4d376286f0f3555",
+        "android_client_info": {
+          "package_name": "com.example.reto3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805946862672-u992qlp6vnbkef6h079tsm60fk33a1ag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHYEi7O34sdXu4Goa73DdmixElgQjjZeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805946862672-u992qlp6vnbkef6h079tsm60fk33a1ag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
