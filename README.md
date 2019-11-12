@@ -24,3 +24,14 @@ Menu y Dialogos para un TicTacToe
 
 Incorporacion de graficos y audio para un TicTacToe
 
+## Reto 06 
+
+Menu de configuracion para un TicTacToe
+
+## Reto 07 
+
+Jugando Triqui Online
+
+## Reto 08 
+
+Almacenamiento en Android con SQLite
