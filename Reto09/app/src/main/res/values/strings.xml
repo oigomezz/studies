@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MapsNearbyPlaces</string>
+    <string name="title_activity_maps">GpsMaps</string>
+
+    <string name="adTitle">Radio de búsqueda en km</string>
+    <string name="adAccept">Aceptar</string>
+    <string name="adCancel">Cancelar</string>
+</resources>
