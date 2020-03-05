@@ -1,3 +1,6 @@
 # Grafica  Interactiva
 
-Ejercicio 2 
+## Ejercicio 1 
+
+
+## Ejercicio 2 
