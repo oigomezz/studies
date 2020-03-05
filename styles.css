@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+/*Fuentes */
+@font-face {
+    font-family: Buffon-Bold;
+    src: url('Fuentes/Buffon-Bold.otf');
+}
+@font-face {
+    font-family: Buffon-Regular;
+    src: url('Fuentes/Buffon-Regular.otf');
+}
+@font-face {
+    font-family: Buffon-Thin;
+    src: url('Fuentes/Buffon-Thin.otf');
+}
+
+
+/*Padding y margin en cero para evitar problemas con el navegador*/
+/*box-sizing para indicar como vamos a calcular la altuta y anchura de los elementos*/
+* {
+	padding: 0;
+	margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Buffon-Regular;
+    padding: 10px;
+    background-image: url("Imagenes/Fondo.jpg");
+}
+
+/*Estilo de los titulos */
+h1 {
+	font-family: Buffon-Bold;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: bold;
+	color: #3333FF;
+	text-shadow: 1px 1px #000000;
+	text-align: center;
+	min-width:200px;
+    max-width:840px;
+}
+
+/*Estilo de los subtitulos */
+h2 {
+	font-family: Buffon-Bold;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: bold;
+	color: #3333FF;
+	text-shadow: 1px 1px #000000;
+	text-align: center;
+	
+}
+/*Estilo para los pie de imagen */
+h5 {
+	font-family: Buffon-Thin;
+	font-size: 12px;
+	font-style: normal;
+	color: #000000;
+	text-align: center;
+	
+}
+
+/* Encabezado */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: url("Imagenes/header.jpg") no-repeat left top;;
+}
+
+/* Titulo del encabezado */
+.header h1 {
+    font-size: 50px;
+}
+
+/* Estilo de la barra superior de navegacion */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Estilo de los links de la barra superior*/
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Cambiar el color en hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Dos columnas flotan una junto a la otra */
+/* Columna Izquierda */
+.leftcolumn {   
+    float: left;
+    width: 50%;
+}
+
+/* Columna derecha*/
+.rightcolumn {
+    float: right;
+    width: 50%;
+}
+
+/* Clear floats despues de las columnas */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Estilo del texto*/
+.text {
+	font-family: Buffon-Thin;
+	font-size: 24px;
+	font-style: justify;
+	text-align: center;
+	color:#000000;
+	margin:auto;
+	min-width:200px;
+	max-width:560px;
+}
+
+/*Estilo del texto del Footer*/
+.textFooter{
+	font-family: Buffon-Thin;
+	font-size: 18px;
+	font-style: justify;
+	text-align: center;
+	color:#000000;
+	margin:auto;
+}
+
+/* Estilo de las imagenes */
+.image {
+    background-color: #aaa;
+    width: 100%;
+}
+
+/* Separar cada imagen con su informacion para mejor organizacion */
+.card {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    min-width:300px;
+	max-width:600px;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+.parrafo {
+	font-family: Buffon-Thin;
+	font-size: 18px;
+	font-style: justify;
+	color:#000000;
+	margin:auto;
+}
+
+.enlaces{
+	font-size: 15px;
+	text-decoration: none;
+	color: blue;
+}
+
+/* Responsive layout - cuando la pantalla es menos que 800px de ancho, hacemos una sola columna */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/*Responsive layout - cuando la pantalla es menos que 400px de ancho, hacemos los links formen una columna en vez de una fila*/
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}

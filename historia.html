@@ -1,45 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Chicaque</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="estilos.css">
+	<!-- Codificación de carateres especiales -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<!-- Icono en la pestaña de la pagina -->
+	<link rel="icon" type="image/png" href="Imagenes/Icon.ico">
+	<!-- Titulo de la página -->
+	<title>Historia</title>
+	<!-- Vinculo la página de estilos CSS -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  <!-- Header de la página contiene titulo y la barra de navegación -->
-  <header>
-    <nav class="navbar">
-      <div id="title">
-        <h1>Parque Chicaque</h1>
-      </div>
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="historia.html">Historia</a></li>
-		    <li><a href="lugar.html">Ubicación</a></li>
-        <li><a href="habitantes.html">Habitantes</a></li>
-        <li><a href="actividades.html">Actividades</a></li>
-        <li><a href="mapa.html">Mapa</a></li>
-        <li><a href="creditos.html">Acerca De...</a></li>
-      </ul>
-    </nav>
-  </header>
-  <!-- Contenedor principal -->
-  <div class="container">
-  	<!-- Titulo de la vista -->
-    <h1>Inicios</h1>
-    <!-- Varios tipos de containers para organizar la informacion -->
-    <div class="container1">
-      <h2>Historia:</h2>
-      <p>En el mes de abril de 1990 se conformó la Sociedad Montañas de Chicaque, la cual  surgió como una iniciativa privada para crear una reserva natural que permitiera proteger el bosque de niebla, con el tiempo se creó el Parque Natural de Chicaque dedicado a la conservación y a la educación ambiental.</p>
-      <img src='Imgs/chicaque-4.jpg' class='center'>
-      <p>Investigadores han encontrado rezagos de presencia de caminos prehispánicos con una antigüedad superior a los 700 años antes de la llegada de los españoles. Los primeros moldes para hacer los caminos fueron las plantas de los pies de los indígenas, Germán Arciniegas en el libro Los Caminos Reales de Colombia, afirma que “la única manera de darle alguna seguridad a la bestia de carga, era con una piedra de apoyo. Por eso hay tramos en que el camino se convierte en escalera. Como si se tratara del ingreso a un palacio.</p>
-    </div>
-    <!-- Footer de la página -->
-    <footer>
-      <p>Esta página ha sido realizada con fines acádemicos</p>
-      <!-- Se coloca el copyright del que trabajo en esta página -->
-      <p>&copy; Andrés Felipe Sánchez Lemus | Contacto: <a href="mailto:andfsanchezlem@unal.edu.co">andfsanchezlem@unal.edu.co</a></p>
-    </footer>
-  </body>
+	<!-- Titulo -->
+	<div class="header">
+		<h1>Historia</h1>
+	</div>
 
-  </html>
+	<div class="topnav">	
+		<!-- Botones con su correspondientes hiperviculos -->
+	    <a href="index.html" target="_self"> Inicio </a>
+	    <a href="historia.html" target="_self"> Historia </a>
+	    <a href="geografia.html" target="_self"> Geografia </a>
+	    <a href="actividades.html" target="_self"> Actividades </a>
+	    <a href="creditos.html" target="_self"> Creditos </a>
+	</div>
+
+	<!-- Contenido -->
+	<div class="row">
+  		<div class="leftcolumn">
+    		<div class="card">
+    			<img class="image" src="Imagenes/Foto8.JPG" alt="">
+    			<h5>Fotos tomada el miercoles 5 de Octubre de 2016 - 9:40  </h5>
+    			<p class="text"> Hace más de 1.200 años se registraron los primeros asentamientos de la civilización Muisca y algunas migraciones Chibchas en lo que hoy es Bogotá. Sin embargo, de esa historia aún quedan algunos recuerdos que los bogotanos pueden usar como sitio de turismo.  </p>
+    		</div>
+    		<div class="card">
+    			<img class="image" src="Imagenes/Foto3.JPG" alt="">
+    			<h5>Fotos tomada el miercoles 5 de Octubre de 2016 - 9:40  </h5>
+				<p class="text"> Para el año 1.538, durante la conquista española, se repartieron las tierras y se desintegró la comunidad Muisca de lo que hoy es Suba. Sin embargo, en esos territorios actualmente se ubica el Parque Mirador de Los Nevados. </p>
+			</div>
+		</div>
+    	<div class="rightcolumn">
+			<div class="card">
+				<p class="text"> En 1997, la Universidad Nacional de Colombia en convenio con el Distrito inició los estudios para recuperar la Cantera de Suba y convertirla en un parque. Cuatro años después, en 2001 fue entregado. En la actualidad es administrado por la Secretaría Distrital de Ambiente. </p>
+				<img class="image" src="Imagenes/Foto9.JPG" alt="">
+				<h5>Fotos tomada el miercoles 5 de Octubre de 2016 - 9:40  </h5>
+				<p class="text"> El espacio en donde se ubica el parque anteriormente fue un cementerio Muisca, después funcionó una antigua cantera, luego se creó una escombrera y ahora es suelo de recuperación en el que hay plantación de árboles, de cobertura y se realizan trabajos de eliminación de especies invasoras. </p>
+				
+			</div>
+		</div>
+	</div>
+	<!-- Pie de Pagina -->
+	<div class="footer">	
+		<p class="textFooter"> El parque está abierto al público todos los días de 6:00 a.m. a 5:00 p.m. </p>
+	</div>
+</body>
+</html>
