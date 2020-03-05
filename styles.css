@@ -149,7 +149,7 @@ h5 {
 .card {
     background-color: white;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     margin-top: 20px;
     min-width:300px;
 	max-width:600px;
@@ -177,18 +177,30 @@ h5 {
 	color: blue;
 }
 
+.juegoPhaser {  
+        width: 320px;
+        min-width:260px;
+        max-width:560px;
+        margin-top: 10px;
+}
+
 /* Responsive layout - cuando la pantalla es menos que 800px de ancho, hacemos una sola columna */
 @media screen and (max-width: 800px) {
     .leftcolumn, .rightcolumn {   
         width: 100%;
         padding: 0;
     }
+    .juegoPhaser { 
+         margin: auto;
+         width: 720px;
+         } 
 }
 
-/*Responsive layout - cuando la pantalla es menos que 400px de ancho, hacemos los links formen una columna en vez de una fila*/
-@media screen and (max-width: 400px) {
+/*Responsive layout - cuando la pantalla es menos que 320px de ancho, hacemos los links formen una columna en vez de una fila*/
+@media screen and (max-width: 320px) {
     .topnav a {
         float: none;
         width: 100%;
     }
+
 }
