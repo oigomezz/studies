@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Codificación de carateres especiales -->
+	<meta charset="UTF-8">
+	<!-- Titulo de la página -->
+	<title>Parque Mirador de los Nevados</title>
+	<!-- Libreria de phaser y el archivo que contiene el codigo del mapa-->
+    <script src="./js/phaser.js"></script>
+    <script src="./js/mapa.js"></script>
+	<!-- Vinculo la página de estilos CSS -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<!-- Icono en la pestaña de la pagina -->
+	<link rel="icon" type="image/png" href="Imagenes/Icon.ico">
+</head>
+
+<body>	
+	<!-- Titulo -->
+	<div class="header">
+		<h1>Mapa Interactivo</h1>
+	</div>
+
+	<div class="topnav">	
+		<!-- Botones con su correspondientes hiperviculos -->
+	    <a href="index.html" target="_self"> Inicio </a>
+	    <a href="historia.html" target="_self"> Historia </a>
+	    <a href="geografia.html" target="_self"> Geografia </a>
+	    <a href="actividades.html" target="_self"> Actividades </a>
+	    <a href="mapa.html" target="_self"> Mapa </a>
+	    <a href="creditos.html" target="_self"> Creditos </a>
+	</div>
+
+	<!-- Contenido -->
+	<div class="row">
+		<div class="card">
+			<h3>Mapa Interactivo</h3>
+			<h5>Utilice las flechas para desplazarse por el mapa y visualizar ciertos lugares.</h5>
+			<div id="mapa" class="juegoPhaser" ></div>
+		</div>
+	</div>
+	
+	<!-- Pie de Pagina -->
+	<div class="footer">	
+		<p class="textFooter"> Realizado por Oscar Ivan Gomez Zamudio <br>oigomezz@unal.edu.co</br></p>
+	</div>
+</body>
+</html>
