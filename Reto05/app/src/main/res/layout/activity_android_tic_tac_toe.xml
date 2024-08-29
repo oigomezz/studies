@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal" >
+
+    <TextView android:id="@+id/results"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:layout_width="fill_parent"
+        android:text="Jugador: 0   Empates: 0    Maquina: 0"
+        android:layout_marginTop="20dp" />
+
+    <com.e.tictactoe.BoardView
+        android:id="@+id/board"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView android:id="@+id/information"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:layout_width="fill_parent"
+        android:text="info"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_new_game"
+        android:title="@string/action_new_game"
+        android:icon="@drawable/action_new_game"/>
+    <item android:id="@+id/settings"
+        android:title="@string/preferences"
+        android:icon="@drawable/settings" />
+    <item android:id="@+id/action_creategame"
+        android:title="@string/creategame"
+        android:icon="@drawable/settings" />
+    <item android:id="@+id/action_joingame"
+        android:title="@string/joingame"
+        android:icon="@drawable/settings" />
+    <item android:id="@+id/about_menu"
+        android:title="@string/about"
+        android:icon="@drawable/about" />
+    <item android:id="@+id/reset"
+        android:title="@string/reset_score"
+        android:icon="@drawable/reset" />
+</menu>

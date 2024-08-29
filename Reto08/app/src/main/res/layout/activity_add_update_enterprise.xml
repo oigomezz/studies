@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="30dp">
+
+
+        <EditText
+            android:id="@+id/edit_text_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:padding="@dimen/view_padding"
+            android:textSize="@dimen/add_edit_textsize" />
+
+        <EditText
+            android:id="@+id/edit_text_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Url "
+            android:padding="@dimen/view_padding"
+            android:textSize="@dimen/add_edit_textsize" />
+
+        <EditText
+            android:id="@+id/edit_text_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Teléfono"
+            android:inputType="phone"
+            android:padding="@dimen/view_padding"
+            android:textSize="@dimen/add_edit_textsize" />
+
+        <EditText
+            android:id="@+id/edit_text_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/view_padding"
+            android:textSize="@dimen/add_edit_textsize" />
+
+        <EditText
+            android:id="@+id/edit_text_products"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Productos y servicios"
+            android:padding="@dimen/view_padding"
+            android:textSize="@dimen/add_edit_textsize" />
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_classification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Clasificacion" />
+
+            <CheckBox
+                android:id="@+id/checkbox_consultoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="Consultoria" />
+
+            <CheckBox
+                android:id="@+id/checkbox_desarrollo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="Desarrollo a la medida" />
+
+            <CheckBox
+                android:id="@+id/checkbox_fabricacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="Fabricacion de software" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_add_update_enterprise"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginTop="@dimen/button_padding"
+            android:text="Agregar Empresa"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>
