@@ -1,0 +1,6 @@
+Realice este ejercico con el propocito de dar a conocer un bello lugar 
+que poca gente conoce dentro de mi comunidad.
+
+En el mapa interactivo mi objetivo fue mostrar de una forma más personal
+como el explorar el mapa del parque y ver las diferentes actividades que
+el parque.
