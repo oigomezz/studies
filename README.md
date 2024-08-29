@@ -1,5 +1,6 @@
 # Grafica  Interactiva
 
+
 ## Ejercicio 1 
 
 
